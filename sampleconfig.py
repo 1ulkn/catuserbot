@@ -1,4 +1,4 @@
-from Config import Config
+from catconfig import Config
 
 
 class Development(Config):
