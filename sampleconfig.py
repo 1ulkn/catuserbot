@@ -1,5 +1,4 @@
-from sample_config import Config
-
+from Config import Config
 
 class Development(Config):
   #get this values from the my.telegram.org
