@@ -1,9 +1,9 @@
-FROM sandy1709/catuserbot:latest
+FROM sandy1709/catuserbot:alpine
 
 #clonning repo 
-RUN git clone https://github.com/sandy1709/catuserbot.git /root/userbot
+RUN git clone https://github.com/sandy1709/catuserbot.git /root/catuserbot
 #working directory 
-WORKDIR /root/userbot
+WORKDIR /root/catuserbot
 
 # Install requirements
 RUN pip3 install -U -r requirements.txt
