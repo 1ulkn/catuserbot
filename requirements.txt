@@ -43,6 +43,7 @@ prettytable
 programmingquotes
 psutil
 psycopg2
+psycopg2-binary
 PyDictionary
 pyfiglet
 PyGithub
